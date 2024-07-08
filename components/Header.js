@@ -1,5 +1,7 @@
+// components/Header.js
 import Image from 'next/image';
 import styles from '../styles/Header.module.css';
+
 
 const Header = () => (
   <header className={styles.header}>
