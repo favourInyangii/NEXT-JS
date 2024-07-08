@@ -1,11 +1,8 @@
-// components/Header.js
-import Image from 'next/image';
+// Header.js
 import styles from '../styles/Header.module.css';
-
 
 const Header = () => (
   <header className={styles.header}>
-    <Image src="/profile.jpg" alt="Profile Picture" width={150} height={150} />
     <h1 className={styles.headerTitle}>My Portfolio</h1>
   </header>
 );
